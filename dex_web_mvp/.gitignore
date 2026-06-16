@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+
+# Dex Voice
+dex_voice_transcripts/
+dex_voice_processed/
+dex_voice_logs/ 45
+
+# Audio
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Video
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# VS Code
+.vscode/
+
+# Linux
+*.swp

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Dex Voice
+dex_voice_processed/
+dex_voice_transcripts/
+dex_voice_incoming/
+
+
+# Speaking Assessment
+Rules Avaliation Speaking Dex/
+
+# Media
+*.mkv
+*.mp4
+*.mov
+*.avi
+*.wav
+*.mp3
+
+# VS Code
+.vscode/

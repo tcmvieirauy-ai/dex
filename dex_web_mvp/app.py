@@ -179,7 +179,7 @@ st.markdown("""
 }
 
 body {
-    overflow: hidden;
+    overflow: auto;
 }
 
 .main-title {
@@ -201,7 +201,8 @@ body {
 }
 
 .chat-scroll {
-    height: 58vh;
+    min-height: 60vh;
+    max-height: 60vh;
     overflow-y: auto;
     padding: 10px 20px 20px 20px;
     border-radius: 12px;
@@ -270,8 +271,10 @@ body {
     background: #030b18;
     border-left: 1px solid #1e293b;
     padding: 22px;
-    height: 94vh;
+    height: 82vh;
     overflow-y: auto;
+    position: sticky;
+    top: 20px;
 }
 
 .user-card {
@@ -371,7 +374,7 @@ if st.session_state.active_thread_id is None and threads:
     st.session_state.active_thread_id = threads[0][0]
 
 
-main_col, right_col = st.columns([3.5, 1.15], gap="large")
+main_col, right_col = st.columns([3, 1], gap="medium")
 
 
 # MAIN AREA

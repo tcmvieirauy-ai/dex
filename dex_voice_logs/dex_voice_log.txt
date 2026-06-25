@@ -1,1 +1,6 @@
 2026-06-15 20:43:22.331368 | processed | simplescreenrecorder-2026-06-15_11.59.45.mkv | language=en | duration=3804.1666875
+2026-06-17 02:49:27.104899 | processed | Dahiana Class.mkv | language=en | duration=5514.944
+2026-06-17 03:02:38.804248 | processed | Daiana Class.mkv | language=en | duration=2854.5066875
+2026-06-19 22:10:38.258184 | processed | Rocio Class_part 2.mkv | language=en | duration=1696.3413125
+2026-06-19 22:20:05.446871 | processed | Rocio Class_part 1.mkv | language=en | duration=1847.0826875
+2026-06-19 23:35:23.056171 | processed | Nico Class.mkv | language=en | duration=1440.5333125
